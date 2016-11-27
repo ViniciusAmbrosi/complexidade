@@ -14,7 +14,7 @@ public class FibonnaciTest {
 		
 		System.out.println("Recursviv Fib");
 		TimeService.startChronometer();
-		System.out.println(fibonnaciCaclulator.normalFib(n));
+		System.out.println(fibonnaciCaclulator.recursiveFib(n));
 		TimeService.stopChronometer();
 		System.out.println(TimeService.getTime());
 	}
